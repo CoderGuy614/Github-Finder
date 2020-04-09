@@ -1,5 +1,5 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const Navbar = ({ icon, title }) => {
   return (
@@ -19,7 +19,7 @@ Navbar.defaultProps = {
 };
 
 Navbar.propTypes = {
-  title: propTypes.string.isRequired,
-  icon: propTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 export default Navbar;
